@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+.main {
+    height: 100%;
+    width: 100;
+    display: flex;
+}
+
+.left {
+    height: 100%;
+    width: 35%;
+    background-image: url("assets/pngtree-futuristic-shape-abstract-background-chemistry-technology-concept-for-website-image_438818.jpg");
+    background-color: aqua;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.left a {
+    color: white;
+}
+
+.nav {
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 4vw;
+    word-wrap: break-word;
+    /* overflow: hidden; */
+}
+
+.left h1 {
+    font-size: 4vh;
+    padding-top: 8vh;
+    padding-left: 14vw;
+}
+
+.left p {
+    font-size: 4vh;
+    padding-top: 8vh;
+    padding-left: 3vw;
+
+}
+
+.nright a {
+    padding-left: 20px;
+}
+
+.right {
+    height: 100%;
+    width: 65%;
+    background-color: white;
+}
+
+.rtop {
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.rleft {
+    width: 50%;
+    height: 100%;
+    background-image: url("Assets/Micromax\ 042.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rright {
+    width: 50%;
+    height: 100%;
+    word-wrap: break-word;
+    background-image: url("Assets/photo-1472289065668-ce650ac443d2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+.rbottom {
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.bleft {
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+    background-image: url("Assets/istockphoto-1139588963-612x612.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.bright {
+    height: 100%;
+    width: 50%;
+    background-image: url("Assets/PLC-Panel-Layout-985x1024.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+@media (max-width: 500px) {
+
+    .main {
+        flex-direction: column;
+        width: 100vw;
+    }
+    
+    .left {
+        width: 100%;
+    }
+
+    .right{
+        width: 100%;
+    }
+    .rtop {
+        flex-direction: column;
+        height: 100vh;
+
+    }
+
+    .rbottom {
+        flex-direction: column;
+        height: 100vh;
+
+    }
+    
+    .rleft{
+        width: 100%;
+    }
+    .rright{
+        width: 100%;
+    }
+
+    .bleft{
+        width: 100%;
+    }
+    .bright{
+        width: 100%;
+    }
+}
